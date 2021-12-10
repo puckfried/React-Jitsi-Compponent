@@ -19,7 +19,7 @@ Get a local copy, give it a try and implement it in your React project
 
 1. Fork it or clone the repo directly from here
    ```sh
-   git clone git@github.com:puckfried/.git
+   git clone git@github.com:puckfried/React-Jitsi-Compponent.git
    ```
 2. Install NPM packages
    ```sh
@@ -32,4 +32,4 @@ Get a local copy, give it a try and implement it in your React project
    
 ## Documentation
 
-For using the API check out the great documentation of the project: [lib-jitsi-meet API(https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-ljm-api)
+For using the API check out the great documentation of the project: [lib-jitsi-meet API](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-ljm-api)
