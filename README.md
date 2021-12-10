@@ -1,6 +1,7 @@
 ## About the project
 
-A react component for accessing the low level api of the open source conference software Jiti. This allows you to fully customize the video conference within react. This is a translation of the vanilla JS example file from [lib-jitsi-meet](https://github.com/jitsi/lib-jitsi-meet).
+A react component for accessing the low level api of the open source conference software Jitsi. This allows you a complete customization of the video conference within react. This is a translation of the vanilla JS example file from [lib-jitsi-meet](https://github.com/jitsi/lib-jitsi-meet).
+
 
 #### Built with
 * [ReactJS](http://reactjs.org)
@@ -16,7 +17,6 @@ Get a local copy, give it a try and implement it in your React project
   ```
 
 ### Installation
-
 1. Fork it or clone the repo directly from here
    ```sh
    git clone git@github.com:puckfried/React-Jitsi-Compponent.git
@@ -31,5 +31,4 @@ Get a local copy, give it a try and implement it in your React project
    ```
    
 ## Documentation
-
 For using the API check out the great documentation of the project: [lib-jitsi-meet API](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-ljm-api)
