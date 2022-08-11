@@ -218,7 +218,7 @@ useEffect(() => {
 useEffect(() => {
     if(countLocalVideo){
         console.log('HEY Local Video WHATS GOING ON?? ', countLocalVideo)
-        countLocalVideo.ref.current.srcObject = countLocalVideo.media.stream  
+        countLocalVideo.media.attach(countLocalVideo.ref.current)
     }    
 }, [countLocalVideo])
 
@@ -226,7 +226,7 @@ useEffect(() => {
 useEffect(() => {
     if(countLocalAudio){
         console.log('HEY Local Audio WHATS GOING ON?? ', countLocalAudio)
-        countLocalAudio.ref.current.srcObject = countLocalAudio.media.stream 
+        countLocalAudio.media.attach(countLocalAudio.ref.current)
     }
 }, [countLocalAudio])
 
@@ -237,7 +237,7 @@ useEffect(() => {
         countRemoteVideo.forEach((element) => {
             if (!element.ref.current.srcObject) {
                 console.log('useEffect video found element without srcObject: ',element.ref.current)
-                element.ref.current.srcObject = element.media.stream 
+                element.media.attach(element.ref.current)
             } 
         })
         console.log('HEY Video WHATS GOING ON?? ', countRemoteVideo)
@@ -249,7 +249,7 @@ useEffect(() => {
     if (countRemoteAudio?.length > 0){
         countRemoteAudio.forEach((element) => {
             console.log('useEffect audio found element without srcObject: ',element.ref.current)
-            element.ref.current.srcObject = element.media.stream
+            element.media.attach(element.ref.current)
         })
         console.log('HEY AUDIO WHATS GOING ON?? ', countRemoteAudio)
     }
